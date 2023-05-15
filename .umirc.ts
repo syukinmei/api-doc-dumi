@@ -4,5 +4,6 @@ export default defineConfig({
   title: 'fhd',
   favicon: '//www.fhd001.com/favicon.ico',
   logo: '//img1.fhd001.com/official/image/cloud_logo.png',
-  outputPath: 'docs-dist111',
+  outputPath: 'dist',
+  base: '/fhdcloud/doc/dist/index.html#/',
 });
