@@ -1211,7 +1211,6 @@ console.log(dataSourceSet);
 const APITable: React.FC<{
   idx: number;
 }> = ({ idx = 0 }) => {
-  console.log(dataSourceSet[idx], idx);
   return (
     <>
       <Table

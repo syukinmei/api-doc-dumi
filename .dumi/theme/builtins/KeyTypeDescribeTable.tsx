@@ -138,15 +138,45 @@ const messageBody = [
   },
   {
     key: 14,
-    param: 'sendStartTime',
+    param: 'id',
     type: 'String',
-    describe: '预约揽件开始时间',
+    describe: '快递员编号',
   },
   {
     key: 15,
+    param: 'name',
+    type: 'String',
+    describe: '快递员姓名',
+  },
+  {
+    key: 16,
+    param: 'mobile',
+    type: 'String',
+    describe: '快递员手机号',
+  },
+  {
+    key: 17,
+    param: 'sendStartTime',
+    type: 'int',
+    describe: '预约揽件开始时间',
+  },
+  {
+    key: 18,
     param: 'sendEndTime',
     type: 'int',
     describe: '预约揽件结束时间',
+  },
+  {
+    key: 19,
+    param: 'productType',
+    type: 'String',
+    describe: '风火递运输方式/产品类型',
+  },
+  {
+    key: 20,
+    param: 'productCode',
+    type: 'String',
+    describe: '运力侧运输方式/产品类型',
   },
 ];
 const dataSourceSet: DataType[][] = [messageBody];
